@@ -1,0 +1,13 @@
+/* Define header styles */
+.header {
+    background-color: #f0f0f0; /* Grey background color */
+    padding: 20px; /* Add padding to the header */
+    display: flex; /* Set display property to flex for horizontal layout */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  /* Define text styles */
+  .header h1 {
+    margin: 0; /* Remove default margin */
+  }
+  

@@ -1,0 +1,21 @@
+<div class="table-wrapper">
+    <table class="task-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let todo of todos; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ todo.name }}</td>
+          <td>{{ todo.description }}</td>
+          <td> <button type="button" (click)="updateTodo(todo)">Update</button></td>
+          <td> <button type="button" (click)="deleteTodo(todo.id)">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
